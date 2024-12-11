@@ -1,0 +1,133 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.content-con {
+    display: flex;
+    justify-content: space-between;
+}
+.content-con:first-child, .content-con:last-child {
+    padding: 7rem 0;
+}
+.content-l img {
+    width: 354px;
+    height: 472px;
+    
+    border-radius: 10px;
+}
+.content-r {
+    padding: 1.5rem;
+    text-align: left;
+}
+/* Qualifications Section */
+.section__container {
+    padding: 1rem;
+  }
+  
+  .section__subheader {
+    font-size: 1.2rem;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .section__header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .journey__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .journey__grid__header {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .journey__grid__header span {
+    margin-right: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .journey__card {
+    display: flex;
+    gap: 1rem;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .journey__card span {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .journey__card h4 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .journey__card h5 {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.3rem 0;
+  }
+  
+  .journey__card p {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  /* Portfolio Section */
+  .portfolio__nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio__nav .btn {
+    background: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .portfolio__nav .btn:hover {
+    background: #0056b3;
+  }
+  
+  .portfolio__nav .mixitup-control-active {
+    background: #0056b3;
+  }
+  
+  .portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .portfolio__card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+@media screen and (max-width: 480px) {
+    .content-con {
+        flex-direction: column;
+    }
+    .content-con:nth-child(2) .content-r {
+        order: 1;
+    }
+}

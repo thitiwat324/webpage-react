@@ -1,0 +1,93 @@
+.container {
+    max-width: 960;
+    margin: 0 auto;
+}
+.CallToAction-bg {
+    background: url("https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=2147&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.CallToAction-text {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 500px;
+    text-align: center;
+}
+.CallToAction-text h2 {
+    margin: 0;
+}
+.FiCode {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.CallToAction-btn {
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.CallToAction-bth:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Info footer styles */
+.info-footer {
+    margin-top: 10px;
+}
+
+.info-footer h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.info-footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #ddd;
+}
+@media screen and (max-width: 480px) {
+    .CallToAction-text {
+        padding: 0 2rem;
+    }
+}
