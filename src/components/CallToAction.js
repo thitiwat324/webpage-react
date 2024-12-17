@@ -9,8 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function CallToAction() {
     return (
         <div className="CallToAction-bg">
-            <div className="overlay"></div>
-            <div className="container">
+            <div className="overlay"><Image src="/assets/img/IMG_9202.jpg" className="testimonials-bg"/></div>
+            <div className="container">                
                 <div className="CallToAction-text">
                     <FiCode className="FiCode" />
                     <Container>

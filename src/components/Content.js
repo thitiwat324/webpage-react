@@ -12,7 +12,7 @@ function Content() {
         <div className="container" id="container">
             <section className="content-con">
                 <div className="content-l">
-                    <img src="/assets/img/รูปถ่าย.jpg" alt="img-fluid"/>
+                    <img src="/assets/img/รูปถ่าย.jpg" alt=""/>
                 </div>
                 <div className="content-r">
                     <h2>About</h2>
@@ -99,12 +99,7 @@ function Content() {
           <div class="portfolio__card mix web">
             <img src="assets/img/project1.png" alt="project" />
           </div>
-          <div class="portfolio__card mix web game">
-            <img src="assets/img/project2.png" alt="project" />
-          </div>
-          <div class="portfolio__card mix design">
-            <img src="assets/img/project3.png" alt="project" />
-          </div>
+          
           
           
           

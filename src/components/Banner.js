@@ -16,7 +16,7 @@ export const Banner = ()  => (
         <Row>
             <section class="height-300vh center-aligned">
             <img class="background-image" src="assets/img/รูป2.jpg" />  
-            <div class="text">React Developer</div> 
+            <div class="text">Developer</div> 
             
             
             
