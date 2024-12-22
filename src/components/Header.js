@@ -20,7 +20,7 @@ function Header() {
             <div className="container">
                 <div className="header-con">
                     <div className="logo-container">
-                        <a href="#">Dev <FiCode /></a>
+                        <a href="#">DevFolio <FiCode /></a>
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
                         <li className="menu-link" onClick={closeMobileMenu}>
@@ -40,7 +40,7 @@ function Header() {
                             <FiMenu />
                         )}
                     </div>
-                </div>
+                </div>       
             </div>
         </div>
 

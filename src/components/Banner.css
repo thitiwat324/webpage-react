@@ -17,15 +17,29 @@
     top: 0;
     left: 0;
     z-index: -1; /* Ensures the image is in the background */
+    
   }
   
   .text {
-    margin-top: 100px;
+    width: 100%;
+    top: 50%;
     position: absolute;
-    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
+    color: #fff; /* Adjust color to make text readable */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    font-weight: bold;
+    text-align: center;
+  }
+  .s {
+    
+    margin-top: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.1rem;
     color: #fff; /* Adjust color to make text readable */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
     font-weight: bold;

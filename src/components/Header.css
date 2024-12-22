@@ -40,13 +40,14 @@
     transition: .3s ease ;
 }
 @media screen and (max-width: 480px) {
+    
     .mobile-menu {
         display: block;
         color:#fff;
         font-size: 2rem;
     }
     .header {
-        padding: 0 2rem;
+        padding: 0 3rem;
     }
     .menu {
         width: 100%;

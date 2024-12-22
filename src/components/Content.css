@@ -28,7 +28,7 @@
   
   .section__subheader {
     font-size: 1.2rem;
-    color: #888;
+    color: #f9f9f9;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -141,6 +141,8 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
       gap: 1.5rem;
-      justify-content: center;
-    }
+      justify-content: center;      
+      padding: auto;
+      padding-left: 250px;
+    }   
 }

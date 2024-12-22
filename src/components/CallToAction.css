@@ -99,3 +99,7 @@
         padding: 0 2rem;
     }
 }
+
+a:hover{
+    background-color: greenyellow;
+}
