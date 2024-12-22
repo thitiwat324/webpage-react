@@ -12,7 +12,7 @@ function Content() {
         <div className="container" id="container">
             <section className="content-con">
                 <div className="content-l">
-                    <img src="/assets/img/รูปถ่าย.jpg" alt=""/>
+                    <img src="/assets/img/รูปถ่าย.jpg" alt="project"/>
                 </div>
                 <div className="content-r">
                     <h2>About</h2>
