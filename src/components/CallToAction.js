@@ -17,10 +17,10 @@ function CallToAction() {
                 <Row className= "show-grid  ">
                     <Col xs={12} sm={12} className="icons ">
                     <div className="social-icons">
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.facebook.com/twitiwat.arkix">
                     <Image src="/assets/img/facebook.png" className="social-icon"/>
                     </a>
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.instagram.com/thi._ara/">
                     <Image src="/assets/img/instagram.png" className="social-icon"/>
                     </a>
                     <a href="https://github.com/thitiwat324">
