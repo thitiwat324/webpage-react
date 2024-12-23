@@ -114,7 +114,7 @@
   }
   
   .portfolio__grid {
-    /*display: grid;*/
+    display: flex;
     /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;*/
     /*padding-right: 100px;
@@ -127,8 +127,8 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 @media screen and (max-width: 480px) {
