@@ -15,10 +15,12 @@ function Content() {
                     <img src="/assets/img/รูปถ่าย.jpg" alt="project"/>
                 </div>
                 <div className="content-r">
-                    <h2>About</h2>
+                <div style={{ color:"#ffffff" }}>
+                    <h1>About</h1></div>
+                    <div style={{ color:"#ffffff" }}>
                     <p>
-                    i have over four years of experience training as a developer with a solid understanding of how code works. i am adaptable polite and responsible and i am currently seeking opportunities to gain more hands-on experience in a web development role.
-                    </p>
+                    <font size ="5">i have over four years of experience training as a developer with a solid understanding of how code works. i am adaptable polite and responsible and i am currently seeking opportunities to gain more hands-on experience in a web development role.</font>
+                    </p></div>
                 </div>
             </section> 
             <section class="section__container journey__container">
